@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: "Helvetica-Regular";
+    src: url('../fonts/Helvetica-Regular.otf');
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('../fonts/Montserrat-Light.otf');
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('../fonts/Montserrat-SemiBold.otf');
+}
+
+/*************************************
+*************** General **************
+*************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none !important;
+}
+
+body {
+  font-family: "Montserrat-Regular", sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+@keyframes change{
+	10%{border-color:#40Acff;}
+	20%{border-color:#ffcc00;}
+	30%{border-color:red;}
+}
+	.avatar {
+		margin-top:10px;
+		width:90px;
+		height:90px;
+		background:#eee;
+		overflow: hidden;
+		border-radius:50px;
+		border:2px solid #334;
+		animation-name:change;
+		animation-duration:4s;
+		animation-delay:2s;
+		animation-iteration-count:infinite;
+	}
+	.avatar img{
+		width:90px;
+		height:90px;	
+	}
+	.answer {
+	   border:1px solid #334;
+		margin-top:20px;
+		padding:6px;
+		width:290px;
+		background:#eee;
+		border-radius:7px;
+		color:;
+		box-shadow:inset 0 0 10px #cbcbcb;
+	}
+	.control {
+		border:0;
+		outline:0;
+		width:220px;
+		border-bottom:1px solid #000000;
+		margin-top:20px;
+		font-size:18px;
+		font-family: "Montserrat-Light", sans-serif !important;
+	}
+	.btn {
+		outline:0;
+		border:2px;
+		width:40px;
+		height:40px;
+		border-radius:50px;
+		background: #393939;
+		color: #fff;
+		font-size:12px;
+		font-family: "Montserrat-Light", sans-serif !important;
+		font-weight:bold;
+	
+	}
+	.mic{
+		width:40px;
+		height:40px;		
+	}
+	.btn:hover{
+		width:42px;
+		height:42px;
+	}
+	.icon{
+		margin-top: 10px;
+		font-size: 24px;
+		padding: 7px;
+	}
+	.ion-social-facebook{
+		color: #007aff;
+	}
+	.ion-social-instagram{
+		color: #ff5050;
+	}
+	.ion-social-twitter{
+		color: #5ac8fa;
+	}
+	.ion-social-reddit{
+		color: #ff6600;
+	}
+	.ion-social-github{
+		color: #393939;
+	}
